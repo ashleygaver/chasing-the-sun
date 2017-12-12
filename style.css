@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: 1px solid rgb(220, 220, 220);
 }
 
-[class*=col-], [class*=col_], [class~=col]{
-  padding:0;
+[class*=col-], [class*=col_], [class~=col] {
+  padding: 0;
 }
 
 footer, section {
@@ -14,6 +14,7 @@ footer, section {
 }
 
 /* - - - - - - - - - UTILITY CLASSES - - - - - - - - - - - */
+
 .top-banner .filter {
   background-color: rgba(256, 256, 256, .30);
   padding: 15%;
@@ -28,37 +29,31 @@ footer, section {
 }
 
 /* - - - - - - - - - TYPOGRAPHY - - - - - - - - - - - - - */
+
 body {
   font-family: 'Amatic SC', cursive;
   line-height: 1.4;
 }
 
-.top-banner {
-  font-family: 'Anatalia', sans-serif;
-  text-align: center;
-}
 
-h1 {
-  font-weight: lighter;
-  font-size: 10vw;
-  padding:0;
-}
 
-.top-banner h2{
-  font-size: 3rem;
-  font-weight: lighter;
-  padding:0;
-}
+/* - - - - - - BANNERS/BACKGROUNDS IMAGES - - - - - - - - - */
+
+
+
+
+/* - - - - - - NAVIGATION - - - - - - - - - */
+
 
 nav a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 2% 2%;
 }
 
 nav a:hover {
-  color: rgb(243,108,96);
+  color: rgb(243, 108, 96);
 }
 
 a:visited {
@@ -70,48 +65,61 @@ nav a .col-3 {
   font-size: .2vw;
 }
 
-.map a {
-  font-size: 3vw;
+nav {
+  padding: 1%;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+
+/* - - - - - - TOP BANNER - - - - - - - - - */
+
+.top-banner {
+  background-image: url('top-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.top-banner {
+  font-family: 'Anatalia', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 10vw;
+  padding: 0;
+}
+
+.top-banner h2 {
+  font-size: 3rem;
+  font-weight: lighter;
+  padding: 0;
+}
+
+
+
+/* - - - - - - - - - MAP - - - - - - - - - - */
+
+.map a, .view-more {
+  font-size: 3.3vw;
   text-decoration: none;
   font-weight: bold;
   margin-left: 25.5%;
   border: 5px;
   border-radius: 15px;
   padding: 1.5%;
-  background-color: rgba(243,108,96, 0.5);
+  background-color: rgba(243, 108, 96, 0.3);
 }
 
-.map a:hover {
-  background-color: rgb(243,108,96);
-}
-
-.about {
-  text-align: center;
-}
-.about h2 {
-  font-size: 3rem;
-}
-
-.about p {
-  font-size: 1.5rem;
-}
-
-/* - - - - - - BANNERS/BACKGROUNDS IMAGES - - - - - - - - - */
-nav {
-  padding: 1%;
-}
-
-header {
-  background-color:white;
-  position: fixed;
-  width: 100%;
-}
-
-.top-banner {
-  background-image: url('top-banner.jpg');
-  background-size: cover;
-  background-position:center;
-  background-attachment: fixed;
+.map a:hover, .view-more:hover {
+  background-color: rgba(243, 108, 96, 0.6);
 }
 
 .map {
@@ -121,6 +129,21 @@ header {
   padding: 27%;
 }
 
+/* - - - - - - ABOUT SECTION - - - - - - - - - */
+.about {
+  text-align: center;
+  background-color: rgba(243, 108, 96, 0.3);
+  color: grey;
+}
+
+.about h2 {
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 1.5rem;
+}
+
 .about .profile {
   background-image: url('profile.jpg');
   background-size: cover;
@@ -128,5 +151,91 @@ header {
   border: 1px solid grey;
   border-radius: 100%;
   width: 200px;
+  height: 16.6vw;
   margin-left: 5%;
 }
+
+/* - - - - - - BUCKET LIST - - - - - - - - - */
+section.list {
+  padding: 5%;
+  text-align: center;
+}
+
+.list h2 {
+  font-size: 3rem;
+}
+
+.list .grid-spaceAround a {
+  font-size: 3.3vw;
+  color: white;
+  text-decoration: none;
+  padding: 5%;
+}
+
+.list-one {
+  background-image: url('australia.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.list-two {
+  background-image: url('bali.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.list-three {
+  background-image: url('cambodia.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.list i {
+  margin: 60% 0%;
+}
+
+.view-more {
+  margin: 0;
+  padding: 0% 5%;
+}
+
+
+/* - - - - - - - - IG FEED - - - - - - - - - */
+.one {
+  background-image:url('ig-one.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+}
+.two {
+  background-image:url('ig-one.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+}
+.three {
+  background-image:url('ig-one.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+}
+.four {
+  background-image:url('ig-one.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+}
+.five {
+  background-image:url('ig-one.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+}
+.six {
+  background-image:url('ig-one.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+}
+
+/* - - - - - - - FOOTER - - - - - - - - - - */
