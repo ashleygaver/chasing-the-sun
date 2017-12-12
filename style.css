@@ -12,6 +12,8 @@
   margin: 0;
 }
 
+@font-face { font-family: Anatalia; src: url('Anatalia-script.otf'); }
+
 
 /* - - - - - - - - - UTILITY CLASSES - - - - - - - - - - - */
 
@@ -194,7 +196,7 @@ section.list {
   margin: 60% 0%;
 }
 
-.list a:hover,.ig-feed:hover {
+.list a:hover {
   opacity: .6;
 }
 
@@ -206,14 +208,11 @@ section.list {
 
 
 /* - - - - - - - - IG FEED - - - - - - - - - */
-.ig-feed div {
-  background-image: url('ig-feed.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 10%;
+.ig-banner {
+  background-color: rgba(243, 108, 96, 0.3);
+  font-size: 2.8vw;
   margin-top: 5%;
 }
-
 /* - - - - - - - FOOTER - - - - - - - - - - */
 .footer p {
   font-size: 1rem;
