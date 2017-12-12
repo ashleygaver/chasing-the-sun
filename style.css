@@ -5,14 +5,27 @@
   border: 1px solid rgb(220, 220, 220);
 }
 
-header, footer, section {
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+
+footer, section {
   border: 1px solid yellow;
-  padding: 2%;
 }
 
 /* - - - - - - - - - UTILITY CLASSES - - - - - - - - - - - */
+.top-banner .filter {
+  background-color: rgba(256, 256, 256, .30);
+  padding: 15%;
+}
 
+.right {
+  text-align: right;
+}
 
+.left {
+  text-align: left;
+}
 
 /* - - - - - - - - - TYPOGRAPHY - - - - - - - - - - - - - */
 body {
@@ -23,23 +36,97 @@ body {
 .top-banner {
   font-family: 'Anatalia', sans-serif;
   text-align: center;
-  background-image: url()
 }
+
 h1 {
   font-weight: lighter;
   font-size: 10vw;
+  padding:0;
 }
 
 .top-banner h2{
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: lighter;
+  padding:0;
 }
 
+nav a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 2% 2%;
+}
 
+nav a:hover {
+  color: rgb(243,108,96);
+}
 
+a:visited {
+  text-decoration: none;
+  color: black;
+}
 
+nav a .col-3 {
+  font-size: .2vw;
+}
 
+.map a {
+  font-size: 3vw;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 25.5%;
+  border: 5px;
+  border-radius: 15px;
+  padding: 1.5%;
+  background-color: rgba(243,108,96, 0.5);
+}
 
+.map a:hover {
+  background-color: rgb(243,108,96);
+}
 
+.about {
+  text-align: center;
+}
+.about h2 {
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 1.5rem;
+}
 
 /* - - - - - - BANNERS/BACKGROUNDS IMAGES - - - - - - - - - */
+nav {
+  padding: 1%;
+}
+
+header {
+  background-color:white;
+  position: fixed;
+  width: 100%;
+}
+
+.top-banner {
+  background-image: url('top-banner.jpg');
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+.map {
+  background-image: url('map.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 27%;
+}
+
+.about .profile {
+  background-image: url('profile.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid grey;
+  border-radius: 100%;
+  width: 200px;
+  margin-left: 5%;
+}
