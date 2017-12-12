@@ -160,13 +160,11 @@ h1 {
 
 /* - - - - - - BUCKET LIST - - - - - - - - - */
 section.list {
-  padding: 2%;
+
 }
 
 .list h2 {
   font-size: 3rem;
-  margin-left: 4%;
-  padding-bottom: 2%;
 }
 
 .list .grid-spaceAround a {
@@ -202,7 +200,6 @@ section.list {
 }
 
 .view-more {
-  margin-left: 3.5%;
   padding: 0% 5%;
 }
 
