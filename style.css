@@ -34,7 +34,6 @@ body {
   font-family: 'Amatic SC', cursive;
   line-height: 1.4;
   text-align: center;
-  cursor: default;
 }
 a {
   text-decoration: none;
@@ -69,7 +68,7 @@ header {
   z-index: 99;
   position: fixed;
   width: 100%;
-  border-bottom: 2px solid black;
+  box-shadow: 2px 2px black;
 }
 
 
@@ -112,7 +111,7 @@ h1 {
   background-color: rgba(243, 108, 96, 0.3);
 }
 
-.map a:hover, .view-more:hover, .ig-banner:hover {
+.map a:hover, .view-more:hover {
   background-color: rgba(243, 108, 96, 0.6);
 }
 
@@ -126,17 +125,15 @@ h1 {
 /* - - - - - - ABOUT SECTION - - - - - - - - - */
 .about {
   background-color: rgba(243, 108, 96, 0.3);
-  padding: 5%;
 }
 
 .about h2 {
   font-size: 3rem;
-  padding-left: 5%;
 }
 
 .about p {
   font-size: 2rem;
-  padding: 2% 5%;
+  padding: 2% 5% 2% 0%;
 }
 
 .about a {
@@ -206,19 +203,12 @@ section.list {
 
 
 /* - - - - - - - - IG FEED - - - - - - - - - */
-.ig-banner {
-  background-color:rgba(243, 108, 96, 0.3);
-  font-size: 2vw;
-  font-weight: bold;
-  margin-top: 5%;
-  padding-left: 4%;
-}
-
 .ig-feed div {
   background-image: url('ig-feed.jpg');
   background-size: cover;
   background-position: center;
-  padding: 8%;
+  padding: 10%;
+  margin-top: 5%;
 }
 
 /* - - - - - - - FOOTER - - - - - - - - - - */
