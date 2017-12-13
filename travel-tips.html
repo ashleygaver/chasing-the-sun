@@ -5,7 +5,6 @@ travel-tips:
   - name: Solo Travel
     url:
     featured_image: /images/solo.jpg
-    done: true
   - name: Long Term Travel
     url:
     featured_image: /images/long-term.jpg
@@ -13,24 +12,13 @@ travel-tips:
     url:
     featured_image: /images/accessories.jpg
 ---
-<section class="list">
+<section class="list dest">
   <h2>Travel Tips</h2>
-    <div class="grid">
+    <div class="grid-spaceAround">
 
-      {% for item in page.travel-tips %}
-      {% if item.done == true %}
-      <a href="{{item.link}}" class="col-4_xs-12 bg-grid trans-hover tall-50" style="background-image:url('{{item.featured_image}}')">
-        {% else %}
-      <div class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
-        {% endif %}
-        <div>
+{% for item in page.travel-tips %}
+      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
           <h3>{{item.name}}</h3>
-        </div>
-        {% if item.done == true %}
       </a>
-        {% endif %}
-        </div>
-      {% endfor %}
-
-  </div>
-  </section>
+{% endfor %}
+</section>
