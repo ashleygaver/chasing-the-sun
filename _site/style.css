@@ -189,7 +189,7 @@ section.list {
   font-size: 3rem;
 }
 
-.list .grid-spaceAround a {
+.list .grid, .list .grid a {
   font-size: 3rem;
   color: white;
   padding: 1%;
@@ -198,29 +198,7 @@ section.list {
   align-items: center;
 }
 
-.list-one {
-  background-image: url('/images/australia.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.list-two {
-  background-image: url('/images/bali.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.list-three {
-  background-image: url('/images/cambodia.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.list i {
-  margin: 60% 0%;
-}
-
-.list a:hover {
+.list .bg-grid:hover {
   opacity: .6;
 }
 

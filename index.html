@@ -23,7 +23,7 @@ sub-banner: "live in the sunshine, swim in the sea, drink the wild air"
 <!-- - - - - - - - - - BUCKET LIST SECTION - - - - - - - - -->
 <section class="list">
   <h2>Bucket List</h2>
-    <div class="grid-spaceAround">
+    <div class="grid">
 
       {% for item in site.bucket-list limit:3 %}
       <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">

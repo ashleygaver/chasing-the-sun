@@ -1,25 +1,19 @@
 ---
 layout: default
 title: Bucket List
-list:
-  - name: Go to Australia
-    featured_image: /images/australia.jpg
-  - name: Go to Bali
-    url: /indonesia
-    featured_image: /images/bali.jpg
-  - name: Go to Cambodia
-    featured_image: /images/cambodia.jpg
-
 ---
 
 <!-- - - - - - - - - - GRID - - - - - - - - - - - - -->
 
 <section class="list">
   <h2>Bucket List</h2>
-    <div class="grid-spaceAround">
+    <div class="grid">
 
       {% for item in site.bucket-list %}
-      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+      <div class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+        {% if item.done == true %}
+        <a href={{item.link}}>
+          {% endif %}
         <div class="">
           <h3>{{item.name}}</h3>
           {% if item.done == true %}
@@ -29,7 +23,11 @@ list:
           <i class="fa fa-circle-o" aria-hidden="true"></i>
           {% endif %}
         </div>
+        {% if item.done == true %}
       </a>
+          {% endif %}
+        </div>
+        
       {% endfor %}
 
   </div>
