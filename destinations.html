@@ -1,19 +1,38 @@
 ---
 layout: default
 title: Destinations
+countries:
+  - name: australia
+    url: /countries/Australia
+    featured_image: /images/australia.jpg
+  - name: America
+    url: /countries/Australia
+    featured_image: /images/australia.jpg
+  - name: Canada
+    url: /countries/Australia
+    featured_image: /images/australia.jpg
+  - name: australia
+    url: /countries/Australia
+    featured_image: /images/australia.jpg
+  - name: America
+    url: /countries/Australia
+    featured_image: /images/australia.jpg
+  - name: Canada
+    url: /countries/Australia
+    featured_image: /images/australia.jpg
 ---
 
-<!-- - - - - - - - SORT BY BANNER - - - - - - - - - -->
-<section class="sort-by grid">
-  <div class="col-12">
-    <nav
+<!-- - - - - - - - - - GRID - - - - - - - - - - - - -->
+
+<section class="list">
+  <h2>Destinations</h2>
+    <div class="grid-spaceAround">
+
+      {% for item in page.countries %}
+      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+          <h3>{{item.name}}</h3>
+      </a>
+      {% endfor %}
 
   </div>
-</section>
-
-
-<!-- - - - - - - - - - GRID - - - - - - - - - - - - -->
-<section class="blog-post grid">
-  <div class="col-"
-
-</section>
+  </section>
