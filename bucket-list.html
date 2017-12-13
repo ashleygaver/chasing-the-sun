@@ -1,0 +1,30 @@
+---
+layout: default
+title: Bucket List
+countries:
+  - name: USA
+    url: /usa
+    featured_image: /images/usa.jpg
+  - name: Indonesia
+    url: /indonesia
+    featured_image: /images/indonesia.jpg
+  - name: Mexico
+    url: /mexico
+    featured_image: /images/mexico.jpg
+
+---
+
+<!-- - - - - - - - - - GRID - - - - - - - - - - - - -->
+
+<section class="list">
+  <h2>Destinations</h2>
+    <div class="grid-spaceAround">
+
+      {% for item in page.countries %}
+      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+          <h3>{{item.name}}</h3>
+      </a>
+      {% endfor %}
+
+  </div>
+  </section>
