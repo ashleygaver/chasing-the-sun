@@ -4,15 +4,13 @@ title: Adventures in Bali
 author: Tina
 featured_image:
 categories:
-  - Australia
   - Travel
+  - usa
 ---
 
 
-## Hello&nbsp;
+## Hello
 
-&nbsp;
-
-This is [a link](/about.html)&nbsp; and another one&nbsp;
+This is [a link](/about.html)  and another one
 
 ![](/uploads/versions/mattress-website---1---x----1920-4910x---.png)
