@@ -1,13 +1,22 @@
 ---
 layout: default
+title: USA
 ---
 
-<section class="grid">
+<section class="list">
+  <h2>USA</h2>
+    <div class="grid-spaceAround">
 
 {% for item in site.categories.usa %}
       <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
           <h3>{{item.title}}</h3>
       </a>
 {% endfor %}
+</section>
 
+<section class="excerpt">
+  <p>
+    <a href="{{item.url}}">
+
+  </p>
 </section>
