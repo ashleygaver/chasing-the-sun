@@ -2,9 +2,9 @@
 layout: default
 title: My first blog post
 author: Tina
-featured_image:
+featured_image: /images/map.jpg
 categories:
-  - Australia
+  - usa
   - Travel
 ---
 
