@@ -36,6 +36,10 @@
   border: 5px solid white;
 }
 
+.trans-hover:hover {
+  opacity: .6;
+}
+
 /* - - - - - - - - - TYPOGRAPHY - - - - - - - - - - - - - */
 
 body {
@@ -189,17 +193,13 @@ section.list {
   font-size: 3rem;
 }
 
-.list .grid, .list .grid a {
+.list .bg-grid, .list .grid a {
   font-size: 3rem;
   color: white;
   padding: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.list .bg-grid:hover {
-  opacity: .6;
 }
 
 .view-more {

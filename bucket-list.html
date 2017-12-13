@@ -10,10 +10,11 @@ title: Bucket List
     <div class="grid">
 
       {% for item in site.bucket-list %}
+      {% if item.done == true %}
+      <a href="{{item.link}}" class="col-4_xs-12 bg-grid trans-hover tall-50" style="background-image:url('{{item.featured_image}}')">
+        {% else %}
       <div class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
-        {% if item.done == true %}
-        <a href={{item.link}}>
-          {% endif %}
+        {% endif %}
         <div class="">
           <h3>{{item.name}}</h3>
           {% if item.done == true %}
@@ -25,9 +26,9 @@ title: Bucket List
         </div>
         {% if item.done == true %}
       </a>
-          {% endif %}
+          {% else %}
         </div>
-        
+        {% endif %}
       {% endfor %}
 
   </div>

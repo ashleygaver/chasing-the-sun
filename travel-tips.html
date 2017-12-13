@@ -2,10 +2,38 @@
 layout: default
 title: Travel Tips
 travel-tips:
-  - name: 
-    url: /travel-tips/
-    featured_image: /images/australia.jpg
+  - name: Solo Travel
+    url:
+    featured_image: /images/solo.jpg
   - name:
-    url: /travel-tips/
-    featured_image: /images/australia.jpg
+    url:
+    featured_image:
 ---
+<section class="list">
+  <h2>Travel Tips</h2>
+    <div class="grid">
+
+      {% for item in site.travel-tips %}
+      {% if item.done == true %}
+      <a href="{{item.link}}" class="col-4_xs-12 bg-grid trans-hover tall-50" style="background-image:url('{{item.featured_image}}')">
+        {% else %}
+      <div class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+        {% endif %}
+        <div class="">
+          <h3>{{item.name}}</h3>
+          {% if item.done == true %}
+          <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+          <h4>Read About It></h4>
+          {% else %}
+          <i class="fa fa-circle-o" aria-hidden="true"></i>
+          {% endif %}
+        </div>
+        {% if item.done == true %}
+      </a>
+          {% else %}
+        </div>
+        {% endif %}
+      {% endfor %}
+
+  </div>
+  </section>
