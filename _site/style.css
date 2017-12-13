@@ -36,7 +36,7 @@
   border: 5px solid white;
 }
 
-.trans-hover:hover, .dest:hover {
+.trans-hover:hover, .dest a:hover {
   opacity: .6;
 }
 
