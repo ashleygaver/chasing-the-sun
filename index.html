@@ -20,31 +20,25 @@ sub-banner: "live in the sunshine, swim in the sea, drink the wild air"
 </section>
 
 
-<!-- - - - - - - - - - LIST SECTION - - - - - - - - -->
+<!-- - - - - - - - - - BUCKET LIST SECTION - - - - - - - - -->
 <section class="list">
   <h2>Bucket List</h2>
     <div class="grid-spaceAround">
-      <a href="/bucket-list" class="col-4">
-        <div class ="list-one">
-          <h3>Go to Australia</h3>
-            <i class="fa fa-circle-o" aria-hidden="true"></i>
+
+      {% for item in site.bucket-list limit:3 %}
+      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+        <div class="">
+          <h3>{{item.name}}</h3>
+          {% if item.done == true %}
+          <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+          <h4>Read About It></h4>
+          {% else %}
+          <i class="fa fa-circle-o" aria-hidden="true"></i>
+          {% endif %}
         </div>
       </a>
+      {% endfor %}
 
-    <a href="/blog-post" class="col-4">
-      <div class ="list-two">
-        <h3>Go to Bali</h3>
-        <i class="fa fa-check-circle-o" aria-hidden="true"></i>
-        <h4>Read About It>></h4>
-      </div>
-    </a>
-
-  <a href="bucket-list" class="col-4">
-    <div class ="list-three">
-      <h3>Go to Cambodia</h3>
-        <i class="fa fa-circle-o" aria-hidden="true"></i>
-    </div>
-  </a>
   </div>
   </section>
 
