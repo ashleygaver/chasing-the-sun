@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*=col-], [class*=col_], [class~=col] {
+  padding: 0;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+
+
+/* - - - - - - - - - UTILITY CLASSES - - - - - - - - - - - */
+
+.filter {
+  background-color: rgba(256, 256, 256, .30);}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+/* - - - - - - - - - TYPOGRAPHY - - - - - - - - - - - - - */
+
+body {
+  font-family: 'Amatic SC', cursive;
+  line-height: 1.4;
+  text-align: center;
+  color: black;
+}
+
+
+p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+/* - - - - - - NAVIGATION - - - - - - - - - */
+
+nav a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2% 2%;
+}
+
+nav a:hover {
+  color: rgb(243, 108, 96);
+}
+
+nav a .col-3 {
+  font-size: .2vw;
+  padding-right: 5%;
+}
+
+nav {
+  padding: 1%;
+}
+
+header {
+  background-color: white;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+
+
+/* - - - - - - TOP BANNER - - - - - - - - - */
+
+.top-banner {
+  background-image: url('/images/top-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Sacramento', cursive;
+}
+.top-banner .filter {
+  padding: 3%;
+}
+
+.big-banner .filter{
+  padding: 15%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 8vw;
+  padding: 3%;
+}
+
+.big-banner h1 {
+  font-size: 15vw;
+  padding: 0;
+}
+
+.top-banner h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding: 0;
+}
+
+
+
+/* - - - - - - - - - MAP - - - - - - - - - - */
+
+.map a, .view-more {
+  font-size: 2.8vw;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 1.5%;
+  background-color: rgba(243, 108, 96, 0.3);
+}
+
+.map a:hover, .view-more:hover {
+  background-color: rgba(243, 108, 96, 0.6);
+}
+
+.map {
+  background-image: url('/images/map.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 27%;
+}
+
+/* - - - - - - ABOUT SECTION - - - - - - - - - */
+.about {
+  background-color: rgba(243, 108, 96, 0.3);
+}
+
+.about h2 {
+  font-size: 2.5rem;
+}
+
+.about p {
+  font-size: 1.5rem;
+  padding: 2% 5% 2% 0%;
+}
+
+.about a {
+  color: white
+}
+
+.about a:hover {
+  font-weight:800;
+}
+
+.about .profile {
+  background-image: url('/images/profile.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid grey;
+  border-radius: 100%;
+  width: 200px;
+  height: 16.6vw;
+  margin-left: 5%;
+}
+
+/* - - - - - - BUCKET LIST - - - - - - - - - */
+section.list {
+  padding: 2%;
+}
+
+.list h2 {
+  font-size: 3rem;
+}
+
+.list .grid-spaceAround a {
+  font-size: 3rem;
+  color: white;
+  padding: 5%;
+}
+
+.list-one {
+  background-image: url('/images/australia.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.list-two {
+  background-image: url('/images/bali.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.list-three {
+  background-image: url('/images/cambodia.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.list i {
+  margin: 60% 0%;
+}
+
+.list a:hover {
+  opacity: .6;
+}
+
+.view-more {
+  padding: 0% 5%;
+}
+
+
+
+/* - - - - - - - - IG FEED - - - - - - - - - */
+.ig-banner {
+  background-color: rgba(243, 108, 96, 0.3);
+  font-size: 2rem;
+  margin-top: 5%;
+}
+/* - - - - - - - FOOTER - - - - - - - - - - */
+.footer p {
+  font-size: 1rem;
+  margin-left: 2%;
+}

@@ -12,15 +12,11 @@
   margin: 0;
 }
 
-@font-face { font-family: Anatalia; src: url('Anatalia-script.otf'); }
-
 
 /* - - - - - - - - - UTILITY CLASSES - - - - - - - - - - - */
 
-.top-banner .filter {
-  background-color: rgba(256, 256, 256, .30);
-  padding: 15%;
-}
+.filter {
+  background-color: rgba(256, 256, 256, .30);}
 
 .right {
   text-align: right;
@@ -36,9 +32,17 @@ body {
   font-family: 'Amatic SC', cursive;
   line-height: 1.4;
   text-align: center;
+  color: black;
 }
+
+
+p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
 a {
   text-decoration: none;
+  color: black;
 }
 a:visited {
   text-decoration: none;
@@ -70,7 +74,7 @@ header {
   z-index: 99;
   position: fixed;
   width: 100%;
-  box-shadow: 2px 2px black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -78,26 +82,35 @@ header {
 /* - - - - - - TOP BANNER - - - - - - - - - */
 
 .top-banner {
-  background-image: url('top-banner.jpg');
+  background-image: url('/images/top-banner.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-family: 'Sacramento', cursive;
+}
+.top-banner .filter {
+  padding: 3%;
 }
 
-
-.top-banner {
-  font-family: 'Anatalia', sans-serif;
+.big-banner .filter{
+  padding: 15%;
 }
 
 h1 {
-  font-weight: lighter;
-  font-size: 18vw;
+  font-weight: 400;
+  font-size: 8vw;
+  padding: 3%;
+}
+
+.big-banner h1 {
+  font-size: 15vw;
   padding: 0;
 }
 
 .top-banner h2 {
-  font-size: 3.5rem;
-  font-weight: lighter;
+  font-family: 'Sacramento', cursive;
+  font-size: 2.2rem;
+  font-weight: 400;
   padding: 0;
 }
 
@@ -118,7 +131,7 @@ h1 {
 }
 
 .map {
-  background-image: url('map.jpg');
+  background-image: url('/images/map.jpg');
   background-size: cover;
   background-position: center;
   padding: 27%;
@@ -130,11 +143,11 @@ h1 {
 }
 
 .about h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .about p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2% 5% 2% 0%;
 }
 
@@ -147,7 +160,7 @@ h1 {
 }
 
 .about .profile {
-  background-image: url('profile.jpg');
+  background-image: url('/images/profile.jpg');
   background-size: cover;
   background-position: center;
   border: 1px solid grey;
@@ -164,30 +177,28 @@ section.list {
 
 .list h2 {
   font-size: 3rem;
-  margin-left: 4%;
-  padding-bottom: 2%;
 }
 
 .list .grid-spaceAround a {
-  font-size: 3.3vw;
+  font-size: 3rem;
   color: white;
   padding: 5%;
 }
 
 .list-one {
-  background-image: url('australia.jpg');
+  background-image: url('/images/australia.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .list-two {
-  background-image: url('bali.jpg');
+  background-image: url('/images/bali.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .list-three {
-  background-image: url('cambodia.jpg');
+  background-image: url('/images/cambodia.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -201,7 +212,6 @@ section.list {
 }
 
 .view-more {
-  margin-left: 3.5%;
   padding: 0% 5%;
 }
 
@@ -210,7 +220,7 @@ section.list {
 /* - - - - - - - - IG FEED - - - - - - - - - */
 .ig-banner {
   background-color: rgba(243, 108, 96, 0.3);
-  font-size: 2.8vw;
+  font-size: 2rem;
   margin-top: 5%;
 }
 /* - - - - - - - FOOTER - - - - - - - - - - */
