@@ -11,6 +11,6 @@ categories:
 
 ## Hello
 
-This is [a link](/about.html)  and another one
+This is [a link](/about.html)&nbsp; and another one hello
 
 ![](/uploads/versions/mattress-website---1---x----1920-4910x---.png)
