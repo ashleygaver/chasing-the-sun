@@ -15,23 +15,23 @@
 
   <section class="post-content grid">
     <div class="col-9">
+
     {{content}}
+
   </div>
 
-<div class="col-3">
+  <div class="col-3 side-bar">
 
-<img src="..." alt="">
-<h3>about me</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-</div>
+    <div class="side-bar pic"></div>
+      <h3>about me</h3>
+      <p>Hi! I'm Ashley - a twentysomething from New York. I've left the corporate world to travel around Southeast Asia and follow the warm summer weather. Read the full story <a href="/about.html">here</a> to see how I'm doing it!</p>
+    </div>
 
   </section>
 
-<section class="post grid">
+  <section class="post grid">
 
-  <div class="col-4 related-posts">
+    <div class="col-4 related-posts">
     {% assign similar = site.post | where:"catagory","page.catagory" %}
 
     {% for item in site.similar %}
@@ -40,4 +40,10 @@
     </a>
     {% endfor %}
 
+    </div>
+  </section>
+
 </div>
+
+</body>
+</html>
