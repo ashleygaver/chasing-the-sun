@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Top 10 Places to Eat in Bali
-author: Tina
+title: Best Beaches in Bali
+author: Ashley
 featured_image: /images/australia.jpg
 categories:
   - Travel
   - usa
 ---
+
+
