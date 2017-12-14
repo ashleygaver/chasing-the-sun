@@ -9,25 +9,33 @@
 
 <div class="post">
 
-  <div class="post-header">
-    <h2>{{page.title}}</h2>
-  </div>
+<section class="grid">
 
-  <section class="post-content grid">
-    <div class="col-9">
+    <div class="post-content col-9">
+      <div class="post-header">
+        <h2>{{page.title}}</h2>
+      </div>
 
     {{content}}
 
   </div>
 
+<!-- - - - - - - - SIDE BAR - - - - - - - - -->
+
   <div class="col-3 side-bar">
 
+    <h3>about me</h3>
     <div class="side-bar pic"></div>
-      <h3>about me</h3>
+
       <p>Hi! I'm Ashley - a twentysomething from New York. I've left the corporate world to travel around Southeast Asia and follow the warm summer weather. Read the full story <a href="/about.html">here</a> to see how I'm doing it!</p>
-    </div>
+
+    <h3>instagram</h3>
+
+      <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3c1b6454f2645d1a8afdd11ad9ac5c19.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
   </section>
+
+  <!-- - - - RELATED CONTENT - - - - - -->
 
   <section class="post grid">
 
@@ -45,5 +53,8 @@
 
 </div>
 
+<!-- - - - - - JQUERY - - - - - -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="/main.js"></script>
 </body>
 </html>
