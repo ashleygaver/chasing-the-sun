@@ -1,20 +1,43 @@
----
-layout:default
----
+<!DOCTYPE html>
+<html>
+ {% include head.html %}
+
+<body>
+{% include nav.html %}
+
+{% include top-banner.html %}
 
 <div class="post">
 
-  <header class="post-header">
+  <div class="post-header">
     <h2>{{page.title}}</h2>
-  </header>
+  </div>
 
-  <article class="post-content">
+  <section class="post-content grid">
+    <div class="col-9">
+    {{content}}
+  </div>
 
-    {{conten}}
+<div class="col-3">
 
-  </article>
+<img src="..." alt="">
+<h3>about me</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+</div>
+
+  </section>
 
 <section class="post grid">
 
   <div class="col-4 related-posts">
-    
+    {% assign similar = site.post | where:"catagory","page.catagory" %}
+
+    {% for item in site.similar %}
+    <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+        <h3>{{item.name}}</h3>
+    </a>
+    {% endfor %}
+
+</div>

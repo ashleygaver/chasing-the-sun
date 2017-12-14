@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title: My second blog post
 author: Tina
 featured_image: /images/map.jpg

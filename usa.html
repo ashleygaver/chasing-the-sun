@@ -3,13 +3,16 @@ layout: default
 title: USA
 ---
 
-<section class="list">
+<section>
   <h2>USA</h2>
-    <div class="grid-spaceAround">
 
+    <div class="grid-spaceAround">
+      <h3>{{item.title}}</h3>
 {% for item in site.categories.usa %}
-      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
-          <h3>{{item.title}}</h3>
-      </a>
+<div class="col-4_sm-12">
+        <a href="{{item.url}}" class="bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
+        <p>{{item.excerpt | truncatewords: 5 }}</p>
+</div>
 {% endfor %}
+  </div>
 </section>

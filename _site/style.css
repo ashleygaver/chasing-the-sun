@@ -28,6 +28,7 @@
 
 .tall-50 {
   min-height:50vh;
+  display: block;
 }
 
 .bg-grid {
@@ -94,11 +95,9 @@ header {
   /* - - - - - - NAV DROPDOWN - - - - - - - - */
 
   .dropdown {
-    position: relative;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 300;
-    color: #C3BFBC;
+    position: relative;
   }
 
   .dropdown-content {
@@ -107,13 +106,19 @@ header {
     background-color: white;
     left:10px;
     min-width: 250px;
-    border-top: 1px solid black;
     padding: 2% 5%;
     list-style-image:url('/images/sunlist.png') ;
   }
 
   .dropdown:hover .dropdown-content {
     display: block;
+}
+.border-fix {
+  border: 1px solid;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 10%;
 }
 
 
