@@ -9,7 +9,7 @@ $(document).ready(function(){
     $(".burger-menu").slideToggle();
   });
 
-  $(".dropdown").click(function(){
+  $(".dropdown-mob").click(function(){
     $(this).children(".burger-dropdown").slideToggle();
   });
 
