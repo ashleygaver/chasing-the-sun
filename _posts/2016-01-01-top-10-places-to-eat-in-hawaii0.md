@@ -5,7 +5,6 @@ author: Ashley
 excerpt:
 featured_image: /uploads/hawaii-food.jpg
 categories:
-  - Travel
   - usa
 ---
 

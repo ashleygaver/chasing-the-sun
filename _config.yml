@@ -1,12 +1,15 @@
 collections:
 - bucket-list
 - destinations
+- travel-tips
 
 
 collections:
   bucket-list:
     output: true
   destinations:
+    output: true
+  travel-tips:
     output: true
 
 
@@ -18,3 +21,20 @@ defaults:
     values:
       layout: "post"
       permalink: /:title
+
+jekyll-archives:
+  enabled:
+    - year
+    permalinks:
+      year: '/:year'
+    layout: year
+    defaults:
+      title: '/year'
+
+categories:
+  - usa
+  - solo-travel
+
+paginate: 6
+
+paginate_path: "/archive/page:num"

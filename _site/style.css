@@ -59,6 +59,10 @@ img {
   font-size: 3rem;
   padding: 2%;
 }
+
+.nav-wrap {
+  column-count: 2;
+}
 /* - - - - - - - - - TYPOGRAPHY - - - - - - - - - - - - - */
 
 body {

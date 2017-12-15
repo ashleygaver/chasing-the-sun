@@ -5,7 +5,7 @@ author: Tina
 featured_image: /uploads/hawaii-beach.jpg
 categories:
   - usa
-  - solo travel
+  - solo-travel
 ---
 
 
