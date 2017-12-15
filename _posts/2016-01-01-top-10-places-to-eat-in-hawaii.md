@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: My first blog post
+title: Top 10 Places to Eat in Hawaii
 author: Ashley
 excerpt:
 featured_image: /images/australia.jpg
