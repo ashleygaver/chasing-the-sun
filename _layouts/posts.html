@@ -6,8 +6,7 @@
 {% include nav.html %}
 
 {% include top-banner.html %}
-
-<div class="post">
+ <div class="post">
 
 <section class="grid">
 
@@ -35,29 +34,38 @@
     </div>
   </section>
 
+</div>
+
   <!-- - - - RELATED CONTENT - - - - - -->
 
+  <div>
+    <h2 class="pink">Related Posts</h2>
+  </div>
+
   <section class="post grid related-posts">
+
 
     {% assign similarposts = site.posts | if: "category" == page.category %}
 
     {% for item in similarposts limit: 3 %}
       {% if page.url != item.url %}
-        <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
-          <h3>{{item.title}}</h3>
-        </a>
+      <div class="related-posts">
+        <h3>{{item.title}}</h3>
+        <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
+          <p>{{item.excerpt | truncatewords: 20 }}</p>
+      </div>
       {% else %}
-        {% for item in similarposts limit: 1 offset: 3 %}
-          <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
-            <h3>{{item.title}}</h3>
-          </a>
+        {% for item in similarposts limit: 1 offset: 4 %}
+        <div class="related-posts">
+          <h3>{{item.title}}</h3>
+          <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
+            <p>{{item.excerpt | truncatewords: 20 }}</p>
+        </div>
         {% endfor %}
       {% endif %}
     {% endfor %}
 
   </section>
-
-</div>
 
 <div class="disqus">
 {% include disqus.html %}

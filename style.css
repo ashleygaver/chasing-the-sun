@@ -149,6 +149,11 @@ nav li {
     white-space: nowrap;
 }
 
+.dropdown-content a:hover{
+  text-decoration: underline;
+
+}
+
 header {
   background-color: white;
   z-index: 99;
@@ -170,9 +175,13 @@ header {
     left:10px;
     min-width: 250px;
     padding: 2% 5%;
-    list-style-image:url('/images/sunlist.png') ;
+    list-style: none;
     border: 2px solid rgb(60,60,65);
     border-top: none
+  }
+
+  nav ul {
+    list-style: none;
   }
   .dropdown:hover > a, .dropdown-mob:hover > a {
     color: rgb(243, 108, 96);
@@ -415,6 +424,18 @@ section.list {
 }
 
 
+/* -- - - - RELATED POSTS - - - - - --> */
+.related-posts {
+  justify-content: space-evenly;
+  max-width: 50%;
+}
+
+.related-posts h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  min-height: 6rem;
+}
+
 /* - - - - - - - - IG FEED - - - - - - - - - */
 .ig-banner {
   background-color: rgba(243, 108, 96, 0.3);
@@ -458,4 +479,7 @@ section.list {
     padding-top: 6%;
   }
 
+  .related-posts {
+    display:none;
+  }
 }
