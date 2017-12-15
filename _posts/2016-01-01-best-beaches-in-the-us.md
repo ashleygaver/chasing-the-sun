@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: my second blog post
+title: Best Beaches in the US
 author: Tina
 featured_image: /uploads/hawaii-beach.jpg
 categories:
