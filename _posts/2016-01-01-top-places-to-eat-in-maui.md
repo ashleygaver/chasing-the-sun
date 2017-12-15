@@ -12,9 +12,11 @@ categories:
 
 ![](/uploads/versions/maui1-1---x----1200-797x---.jpg)
 
+![](/uploads/versions/maui1-2---x----1200-797x---.jpg)
+
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
 
-&nbsp;
+![](/uploads/versions/maui2-1---x----1200-898x---.jpg)
 
 ![](/uploads/versions/maui2---x----1200-898x---.jpg)
 
