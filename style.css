@@ -12,9 +12,7 @@
   margin: 0;
 }
 
-[class*=grid-]>[class*=col-3], [class*=grid_]>[class*=col-3], [class~=grid]>[class*=col-3]{
-  flex-basis: 10%;
-}
+
 
 /* - - - - - - - - - UTILITY CLASSES - - - - - - - - - - - */
 
