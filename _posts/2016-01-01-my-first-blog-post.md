@@ -2,7 +2,6 @@
 layout: posts
 title: My first blog post
 author: Ashley
-excerpt:
 featured_image: /images/australia.jpg
 categories:
   - Travel

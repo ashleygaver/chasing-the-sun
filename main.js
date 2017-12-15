@@ -6,7 +6,7 @@ $(document).ready(function(){
 
   $(".burger-button").click(function(){
     $(".burger-button").toggleClass("active");
-    $(".burger-menu").slideToggle();
+    $(".burger-menu").toggleClass("slide-in");
   });
 
   $(".dropdown-mob").click(function(){
