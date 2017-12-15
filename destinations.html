@@ -1,19 +1,6 @@
 ---
 layout: default
 title: Destinations
-countries:
-  - name: USA
-    url: /usa
-    featured_image: /images/usa.jpg
-  - name: Indonesia
-    url: /indonesia
-    featured_image: /images/indonesia.jpg
-  - name: Mexico
-    url: /mexico
-    featured_image: /images/mexico.jpg
-  - name: Thailand
-    url: /thailand
-    featured_image: /images/thailand.jpg
 ---
 
 <!-- - - - - - - - - - GRID - - - - - - - - - - - - -->
@@ -22,7 +9,7 @@ countries:
   <h2 class="border">destinations</h2>
     <div class="grid dest">
 
-      {% for item in page.countries %}
+      {% for item in site.destinations %}
       <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
           <h3>{{item.name}}</h3>
       </a>
