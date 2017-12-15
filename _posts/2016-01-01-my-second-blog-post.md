@@ -5,7 +5,6 @@ author: Tina
 featured_image: /images/map.jpg
 categories:
   - usa
-  - Travel
 ---
 
 

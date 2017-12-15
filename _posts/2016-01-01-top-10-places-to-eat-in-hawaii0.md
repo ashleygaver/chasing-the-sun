@@ -1,10 +1,11 @@
 ---
 layout: posts
-title: top 10 places to eat in hawaii
+title: top 10 places to eat in australia
 author: Ashley
 excerpt:
 featured_image: /uploads/hawaii-food.jpg
 categories:
+  - Travel
   - usa
 ---
 

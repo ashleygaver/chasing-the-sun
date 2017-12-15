@@ -11,7 +11,7 @@
 
 <section class="grid">
 
-    <div class="post-content col-9">
+    <div class="post-content col-9_sm-12">
       <div class="post-header">
         <h2>{{page.title}}</h2>
       </div>
@@ -37,12 +37,11 @@
 
   <!-- - - - RELATED CONTENT - - - - - -->
 
-  <section class="post grid">
+  <section class="post grid related-posts">
 
-    <div class="col-4 related-posts">
-    {% assign similar = site.post | where:"catagory","page.catagory" %}
+    {% assign similarposts = site.posts | where: "category", page.category %}
 
-    {% for item in site.similar %}
+    {% for item in similarposts %}
     <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
         <h3>{{item.name}}</h3>
     </a>
