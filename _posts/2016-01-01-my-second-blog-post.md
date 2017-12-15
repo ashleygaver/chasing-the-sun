@@ -1,8 +1,8 @@
 ---
 layout: posts
-title: My second blog post
+title: my second blog post
 author: Tina
-featured_image: /images/map.jpg
+featured_image: /uploads/hawaii-beach.jpg
 categories:
   - usa
 ---
