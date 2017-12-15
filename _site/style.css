@@ -72,12 +72,13 @@ body {
 h2 {
   font-weight: 400;
   font-size: 3rem;
+  margin: 2%;
 }
 
-h2.border {
-  border:5px solid rgba(243, 108, 96, 0.3);
-  margin: 1.5%;
+h2.pink {
+  color: rgb(243, 108, 96);
 }
+
 
 
 h3{
@@ -106,7 +107,7 @@ h4 {
   min-height: 8rem;
 }
 
-.location {
+.location div {
   padding: 2%;
 }
 
@@ -277,6 +278,7 @@ h1 {
   font-size: 2.2rem;
   font-weight: 400;
   padding: 0;
+  color: black;
 }
 
 
