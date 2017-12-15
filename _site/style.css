@@ -85,13 +85,12 @@ h4 {
 }
 
 .location h3 {
-  font-family: 'Sacramento', cursive;
-  font-size: 3rem;
-
+  font-size: 2rem;
+  min-height: 7rem;
 }
 
 .location {
-  padding: 3%;
+  padding: 2%;
 }
 
 a {
