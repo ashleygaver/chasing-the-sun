@@ -11,13 +11,16 @@ countries:
   - name: Mexico
     url: /mexico
     featured_image: /images/mexico.jpg
+  - name: Thailand
+    url: /thailand
+    featured_image: /images/thailand.jpg
 ---
 
 <!-- - - - - - - - - - GRID - - - - - - - - - - - - -->
 
 <section  id="scroll-top" class="list">
-  <h2>destinations</h2>
-    <div class="grid-spaceAround dest">
+  <h2 class="border">destinations</h2>
+    <div class="grid dest">
 
       {% for item in page.countries %}
       <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">

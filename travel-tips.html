@@ -13,8 +13,8 @@ travel-tips:
     featured_image: /images/accessories.jpg
 ---
 <section class="list dest">
-  <h2>Travel Tips</h2>
-    <div class="grid-spaceAround">
+  <h2 class="border">travel tips</h2>
+    <div class="grid">
 
 {% for item in page.travel-tips %}
       <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">

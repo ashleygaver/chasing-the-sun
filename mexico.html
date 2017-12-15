@@ -3,14 +3,16 @@ layout: default
 title: Mexico
 ---
 
-<section class="list">
-  <h2>Mexico</h2>
+<section class="location">
+  <h2 class="border">MEXICO</h2>
+
     <div class="grid-spaceAround">
-
 {% for item in site.categories.mexico %}
-      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
-          <h3>{{item.title}}</h3>
-      </a>
+<div class="col-4_sm-12">
+    <h3>{{item.title}}</h3>
+        <a href="{{item.url}}" class="bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
+        <p>{{item.excerpt | truncatewords: 20 }}</p>
+</div>
 {% endfor %}
-
+  </div>
 </section>
