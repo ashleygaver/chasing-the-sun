@@ -2,7 +2,8 @@
 layout: posts
 title: Top 10 Places to Eat in Hawaii
 author: Ashley
-featured_image: /images/australia.jpg
+excerpt:
+featured_image: /uploads/hawaii-food.jpg
 categories:
   - Travel
   - usa
