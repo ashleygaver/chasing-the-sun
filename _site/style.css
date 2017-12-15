@@ -42,7 +42,11 @@
   opacity: .6;
 }
 
-
+.post-header h1{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 3rem;
+  padding: 2%;
+}
 /* - - - - - - - - - TYPOGRAPHY - - - - - - - - - - - - - */
 
 body {
@@ -250,7 +254,7 @@ header {
 
 h1 {
   font-weight: 400;
-  font-size: 5vw;
+  font-size: 5rem;
   padding-top: 4.5%;
 }
 
