@@ -284,8 +284,7 @@ h1 {
 /* - - - - - - - - - MAP - - - - - - - - - - */
 
 .map a, .view-more {
-  font-family: 'Sacramento', cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   border-radius: 15px;
   padding: 1.5%;
@@ -370,11 +369,14 @@ h1 {
 }
 
 .bump-right {
-  margin-left: 11.5rem;
-  margin-top: 1rem;
-  margin-right: -4rem;
-  margin-bottom: 2.2rem;
+  margin-left: 12%;
+  margin-top: 1%;
+  margin-right: -12%;
+  margin-bottom: 1%;
   z-index: 2;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
 }
 
 .bump-right img {
@@ -408,8 +410,7 @@ section.list {
 /* - - - - - - - - IG FEED - - - - - - - - - */
 .ig-banner {
   background-color: rgba(243, 108, 96, 0.3);
-  font-family: 'Sacramento', cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 5%;
 }
 /* - - - - - - - FOOTER - - - - - - - - - - */
