@@ -1,6 +1,6 @@
 ---
 name: Shark Dive in the Philippines
-featured_image: /images/australia.jpg
+featured_image: /uploads/shark-1.jpg
 done: false
 ---
 
