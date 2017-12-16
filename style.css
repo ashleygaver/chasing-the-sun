@@ -497,11 +497,8 @@ section.list {
     display: none;
   }
 
-  .map a, .view-more {
+  .button {
     font-size: 2rem;
-  }
-  .ig-banner a {
-    font-size: 1.5rem;
   }
 
   .side-bar {
@@ -515,7 +512,21 @@ section.list {
   .related-posts, .rel-header {
     display:none;
   }
-  .button {
+  .button, .button-inverted {
     margin-bottom: 1%;
+    font-size: 3rem;
+  }
+
+  h2, h3 {
+    font-size: 6.5rem;
+  }
+
+  h4 {
+    font-size: 4rem;
+  }
+
+  .burger-button span {
+    width: 80px;
+    border: 5px solid black;
   }
 }
