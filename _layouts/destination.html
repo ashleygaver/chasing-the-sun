@@ -6,7 +6,7 @@ layout: default
 
     <div class="grid-spaceAround">
       {% for item in site.categories[page.category] %}
-      <div class="col-6_sm-12 post-item">
+      <div class="col-6_md-12 post-item">
           <h3>{{item.title}}</h3>
           <a href="{{item.url}}" class="bg-grid" style="background-image:url('{{item.featured_image}}')"></a>
           <p>{{item.excerpt | truncatewords: 20 }}</p>

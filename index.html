@@ -11,7 +11,7 @@ sub-banner: "''live in the sunshine, swim in the sea, drink the wild air''"
   <div class="bump-right col-3">
     <img src="/images/profile.jpg" alt="profile-pic" class="mob-hide">
   </div>
-  <div class="about-content col-8_sm-12">
+  <div class="about-content col-8_md-12">
     <h3>Ashley Gaver | Founder</h3>
 
     <p>Hi! I'm Ashley - a twentysomething from New York. I've left the corporate world to travel around Southeast Asia and follow the warm summer weather. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. </p>
@@ -35,7 +35,7 @@ sub-banner: "''live in the sunshine, swim in the sea, drink the wild air''"
 
       {% for item in site.bucket-list limit:3 %}
         {% if item.done == true %}
-      <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+      <a href="{{item.url}}" class="col-4_md-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
         <div>
 
         <h3>{{item.name}}</h3>

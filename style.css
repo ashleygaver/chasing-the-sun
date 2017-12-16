@@ -143,7 +143,7 @@ nav a:hover, .dropdown-mob:hover, .burger-button:hover {
   color: rgb(243, 108, 96);
 }
 
-div.col-3_sm-12 {
+div.col-3_md-12 {
   max-width: 100%;
   flex-basis: 0%;
 }

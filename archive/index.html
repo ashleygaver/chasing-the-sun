@@ -8,14 +8,14 @@ pagination:
 <section>
   <!-- this my loop of most recent blog posts -->
   <div class="grid-middle-center padded-2">
-    <hr class="col-3_sm-12 line2">
+    <hr class="col-3_md-12 line2">
     <h3>Recent Blog Posts</h3>
-    <hr class="col-3_sm-12 line2">
+    <hr class="col-3_md-12 line2">
   </div>
   <div class="grid">
 
     {% for item in paginator.posts %}
-      <div class="col-6_sm-12 post-preview padded-2">
+      <div class="col-6_md-12 post-preview padded-2">
         <a href="{{item.url}}">
           <h3 class="text-center"> {{item.title}} </h3>
           <p class="date text-center padded-1-5"> {{item.date | date:"%A %e %B %Y" }} </p>
