@@ -1,11 +1,29 @@
 ---
 layout: posts
-title: Top Places to Eat in Maui
+title: Top Places to Eat
 author: Ashley
 featured_image: /uploads/hawaii-food.jpg
 categories:
   - usa
-  - long term travel
+  - indonesia
+  - japan
+  - laos
+  - long-term-travel
+  - india
+  - malaysia
+  - mongolia
+  - china
+  - new-zealand
+  - philippines
+  - cambodia
+  - singapore
+  - solo-travel
+  - australia
+  - vietnam
+  - travel-accessories
+  - thailand
+  - taiwan
+  - south-korea
 ---
 
 
