@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Best Beaches in the US
+title: Best Beaches
 author: Ashley
 featured_image: /uploads/hawaii-beach.jpg
 categories:
