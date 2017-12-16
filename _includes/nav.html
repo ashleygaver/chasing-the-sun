@@ -51,7 +51,7 @@
           </div>
         </span>
 
-        <a href="/about.html">ABOUT</a>
+        <a href="/about">ABOUT</a>
       </div>
 
 
@@ -102,15 +102,11 @@
           <span>+ TRAVEL TIPS</span>
           <div class="burger-dropdown">
             <ul>
+              {% for item in site.travel-tips %}
               <li>
-                <a href="/solo-travel.html">Solo Travel</a>
+                <a href="{{item.url}}">{{item.title}}</a>
               </li>
-              <li>
-                <a href="/long-term-travel.html">Long Term Travel</a>
-              </li>
-              <li>
-                <a href="/travel-accessories.html">Travel Accessories</a>
-              </li>
+              {% endfor %}
             </ul>
           </div>
         </span>
@@ -120,19 +116,19 @@
           <div class="burger-dropdown">
             <ul>
               <li>
-                <a href="/bucket-list.html">Full List</a>
+                <a href="/bucket-list">Full List</a>
               </li>
               <li>
-                <a href="/completed.html">Completed</a>
+                <a href="/completed">Completed</a>
               </li>
               <li>
-                <a href="/on-the-list.html">On the List</a>
+                <a href="/on-the-list">On the List</a>
               </li>
             </ul>
           </div>
         </span>
 
-        <a href="/about.html">ABOUT</a>
+        <a href="/about">ABOUT</a>
 
       </div>
 

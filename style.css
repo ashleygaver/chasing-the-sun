@@ -515,4 +515,7 @@ section.list {
   .related-posts, .rel-header {
     display:none;
   }
+  .button {
+    margin-bottom: 1%;
+  }
 }
