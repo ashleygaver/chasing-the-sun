@@ -1,6 +1,8 @@
 ---
-name: surf
-featured_image: /uploads/list2.jpg
-done: false
-link:
+name: Learn How to Surf
+featured_image:
+done: true
+link: /learning-how-to-surf/
 ---
+
+
