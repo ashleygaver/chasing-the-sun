@@ -2,7 +2,7 @@
 layout: posts
 title: Eating Healthy While Traveling
 author: Ashley
-featured_image:
+featured_image: /uploads/food2-1.jpg
 categories:
   - usa
   - australia
