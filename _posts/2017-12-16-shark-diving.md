@@ -6,6 +6,24 @@ featured_image: /uploads/shark.jpg
 categories:
   - long-term-travel
   - philippines
+  - australia
+  - japan
+  - indonesia
+  - laos
+  - malaysia
+  - mongolia
+  - india
+  - new-zealand
+  - singapore
+  - china
+  - solo-travel
+  - south-korea
+  - cambodia
+  - vietnam
+  - usa
+  - travel-accessories
+  - thailand
+  - taiwan
 ---
 
 
