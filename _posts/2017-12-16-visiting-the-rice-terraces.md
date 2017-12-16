@@ -10,9 +10,6 @@ categories:
   - long-term-travel
   - laos
   - malaysia
-  - mongolia
-  - japan
-  - new-zealand
   - philippines
   - india
   - singapore
@@ -21,9 +18,6 @@ categories:
   - taiwan
   - thailand
   - cambodia
-  - usa
-  - travel-accessories
-  - australia
 ---
 
 
