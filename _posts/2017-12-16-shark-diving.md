@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Shark Diving in the Philippines
+title: Shark Diving
 author: Ashley
 featured_image: /uploads/shark.jpg
 categories:
