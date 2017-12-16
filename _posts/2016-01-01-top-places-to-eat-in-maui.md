@@ -2,7 +2,6 @@
 layout: posts
 title: Top Places to Eat in Maui
 author: Ashley
-date:
 featured_image: /uploads/hawaii-food.jpg
 categories:
   - usa

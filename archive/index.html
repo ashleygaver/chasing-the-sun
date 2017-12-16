@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Archive
+pagination:
+  enabled: true
 ---
 
 <section>
@@ -12,8 +14,7 @@ title: Archive
   </div>
   <div class="grid">
 
-    {% for item in site.posts limit:6 %}
-
+    {% for item in paginator.posts %}
       <div class="col-6_sm-12 post-preview padded-2">
         <a href="{{item.url}}">
           <h3 class="text-center"> {{item.title}} </h3>
