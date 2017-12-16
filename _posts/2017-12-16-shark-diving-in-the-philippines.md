@@ -2,7 +2,7 @@
 layout: posts
 title: Shark Diving in the Philippines
 author: Ashley
-featured_image: /uploads/shark-3.jpg
+featured_image: /uploads/shark.jpg
 categories:
   - long-term-travel
   - philippines
@@ -19,4 +19,4 @@ Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
 
 feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed conse
 
-![](/uploads/versions/shark2---x----5472-3648x---.jpg)
+![](/uploads/versions/shark2-1---x----1200-800x---.jpg)
