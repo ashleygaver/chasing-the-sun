@@ -5,10 +5,6 @@ title: Travel & Adventure Blog
 sub-banner: "''live in the sunshine, swim in the sea, drink the wild air''"
 ---
 
-<!-- - - - - - - - - - MAP SECTION - - - - - - - - -->
-
-
-
 <!-- - - - - - - - - - ABOUT SECTION - - - - - - - - -->
 
 <section class="about-page grid-spaceBetween">
@@ -23,9 +19,12 @@ sub-banner: "''live in the sunshine, swim in the sea, drink the wild air''"
   </div>
 </section>
 
+
+<!-- - - - - - - - - - MAP SECTION - - - - - - - - -->
+
 <section class="padded">
   <div class="map">
-    <a href="/destinations.html" class="button">Explore by Location >></a>
+    <a href="/destinations" class="button">Explore by Location >></a>
   </div>
 </section>
 
@@ -35,20 +34,27 @@ sub-banner: "''live in the sunshine, swim in the sea, drink the wild air''"
     <div class="grid">
 
       {% for item in site.bucket-list limit:3 %}
+        {% if item.done == true %}
       <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
-        <div class="">
-          <h3>{{item.name}}</h3>
-          {% if item.done == true %}
-          <i class="fa fa-check-circle-o" aria-hidden="true"></i>
-          <h4>Read about it...</h4>
-          {% else %}
-          <i class="fa fa-circle-o" aria-hidden="true"></i>
-          {% endif %}
-        </div>
+        <div>
+
+        <h3>{{item.name}}</h3>
+        <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+        <h4>Read about it...</h4>
+
+      </div>
       </a>
+        {% else %}
+        <div class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')">
+          <div>
+          <h3>{{item.name}}</h3>
+          <i class="fa fa-circle-o" aria-hidden="true"></i>
+        </div>
+        </div>
+      {% endif %}
       {% endfor %}
 
   </div>
   </section>
 
-  <a href="/bucket-list.html" class="button inverted">View More</a>
+  <a href="/bucket-list" class="button inverted">View More</a>

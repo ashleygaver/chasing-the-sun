@@ -3,7 +3,7 @@ collections:
 - destinations
 - travel-tips
 
-permalink: /:'title'
+permalink: /:title/
 
 collections:
   bucket-list:
