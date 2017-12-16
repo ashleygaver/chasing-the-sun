@@ -1,11 +1,29 @@
 ---
 layout: posts
-title: Visiting the Rice Terraces in Bali
+title: Visiting the Rice Terraces
 author: Ashley
 featured_image: /images/bali.jpg
 categories:
   - solo-travel
   - indonesia
+  - vietnam
+  - long-term-travel
+  - laos
+  - malaysia
+  - mongolia
+  - japan
+  - new-zealand
+  - philippines
+  - india
+  - singapore
+  - south-korea
+  - china
+  - taiwan
+  - thailand
+  - cambodia
+  - usa
+  - travel-accessories
+  - australia
 ---
 
 
