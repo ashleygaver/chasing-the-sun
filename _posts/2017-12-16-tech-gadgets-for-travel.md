@@ -4,12 +4,10 @@ title: Tech Gadgets for Travel
 author: Ashley
 featured_image: /uploads/tech.jpg
 categories:
-  - long-term-travel
   - travel-accessories
   - solo-travel
   - india
   - indonesia
-  - japan
   - china
   - laos
   - vietnam
@@ -17,11 +15,8 @@ categories:
   - singapore
   - new-zealand
   - south-korea
-  - taiwan
-  - mongolia
   - thailand
   - usa
-  - malaysia
   - cambodia
   - australia
 ---
@@ -49,6 +44,6 @@ dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
 
    dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-###
+## #
 
 dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
