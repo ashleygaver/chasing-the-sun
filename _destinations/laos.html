@@ -1,21 +1,7 @@
 ---
-layout: default
+layout: destination
 title: Laos
 name: Laos
 url: /destinations/laos
 featured_image: /images/destinations/laos.jpg
 ---
-
-<section class="location">
-  <h2 class="pink">LAOS</h2>
-
-    <div class="grid-spaceAround">
-{% for item in site.categories.laos %}
-<div class="col-4_sm-12">
-    <h3>{{item.title}}</h3>
-        <a href="{{item.url}}" class="bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
-        <p>{{item.excerpt | truncatewords: 20 }}</p>
-</div>
-{% endfor %}
-  </div>
-</section>

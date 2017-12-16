@@ -49,14 +49,14 @@
 
     {% for item in similarposts limit: 3 %}
       {% if page.url != item.url %}
-      <div class="related-posts">
+      <div class="col-4_xs-12 related-posts">
         <h3>{{item.title}}</h3>
         <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
           <p>{{item.excerpt | truncatewords: 20 }}</p>
       </div>
       {% else %}
         {% for item in similarposts limit: 1 offset: 4 %}
-        <div class="related-posts">
+        <div class="col-4_xs-12 related-posts">
           <h3>{{item.title}}</h3>
           <a href="{{item.url}}" class="col-4_xs-12 bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
             <p>{{item.excerpt | truncatewords: 20 }}</p>

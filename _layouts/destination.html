@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<section class="location">
+  <h2 class="pink">{{page.title}}</h2>
+
+    <div class="grid-spaceAround">
+      {% for item in site.categories[page.category] %}
+      <div class="col-6_sm-12 post-item">
+          <h3>{{item.title}}</h3>
+          <a href="{{item.url}}" class="bg-grid" style="background-image:url('{{item.featured_image}}')"></a>
+          <p>{{item.excerpt | truncatewords: 20 }}</p>
+      </div>
+      {% endfor %}
+  </div>
+</section>
