@@ -100,7 +100,7 @@ p {
 }
 
 
-.location h3 {
+.location h3, .related-posts h3 {
   font-size: 1.8rem;
   padding: 1rem;
   line-height: 1;
@@ -473,12 +473,6 @@ section.list {
 /* -- - - - RELATED POSTS - - - - - --> */
 .related-posts {
   justify-content: space-evenly;
-}
-
-.related-posts h3 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  min-height: 6rem;
 }
 
 /* - - - - - - - - IG FEED - - - - - - - - - */
