@@ -6,6 +6,24 @@ featured_image: /uploads/hawaii-beach.jpg
 categories:
   - usa
   - solo-travel
+  - australia
+  - cambodia
+  - china
+  - india
+  - indonesia
+  - japan
+  - laos
+  - long-term-travel
+  - malaysia
+  - mongolia
+  - new-zealand
+  - south-korea
+  - singapore
+  - taiwan
+  - thailand
+  - philippines
+  - travel-accessories
+  - vietnam
 ---
 
 
