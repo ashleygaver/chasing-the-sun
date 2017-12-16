@@ -329,8 +329,14 @@ h1 {
     border-color: #fba79f;;
 }
 
-.map a:hover, .view-more:hover, .ig-banner:hover {
+.button:hover {
   background-color: rgba(243, 108, 96, 0.6);
+}
+
+.button.inverted:hover {
+  background-color: rgba(252, 190, 184, 0.3);
+  color: white;
+  border-color: white;
 }
 
 .map {
@@ -432,6 +438,11 @@ h1 {
 
 .about-page p {
   font-size: 1.1rem;
+  padding: 0% 2%;
+}
+
+.about-page.grid-spaceBetween.margin-top{
+  align-items: stretch;
 }
 
 /* - - - - - - BUCKET LIST - - - - - - - - - */

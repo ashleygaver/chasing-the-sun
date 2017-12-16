@@ -1,20 +1,7 @@
 ---
-layout: default
+layout: travel-tips
 title: Solo Travel
-name: Solo Travel
 url: /travel-tips/solo-travel
 featured_image: /images/solo.jpg
+category: solo-travel
 ---
-
-<section class="location">
-    <div class="grid-spaceAround">
-      <h2 class="pink col-12">SOLO TRAVEL</h2>
-{% for item in site.categories.solo-travel %}
-<div class="col-4_sm-12">
-    <h3>{{item.title}}</h3>
-        <a href="{{item.url}}" class="bg-grid tall-50" style="background-image:url('{{item.featured_image}}')"></a>
-        <p>{{item.excerpt | truncatewords: 20 }}</p>
-</div>
-{% endfor %}
-  </div>
-</section>
