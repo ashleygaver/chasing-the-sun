@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Best Beaches in the US
-author: Tina
+author: Ashley
 featured_image: /uploads/hawaii-beach.jpg
 categories:
   - usa
