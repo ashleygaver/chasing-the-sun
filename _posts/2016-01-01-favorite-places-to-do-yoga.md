@@ -2,7 +2,7 @@
 layout: posts
 title: Favorite Places to do  Yoga
 author: Ashley
-featured_image:
+featured_image: /uploads/test1-1.jpg
 categories:
   - usa
   - australia
