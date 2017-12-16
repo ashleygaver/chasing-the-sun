@@ -5,6 +5,8 @@ author: Ashley
 featured_image:
 categories:
   - long-term-travel
+  - travel-accessories
+  - solo-travel
 ---
 
 
